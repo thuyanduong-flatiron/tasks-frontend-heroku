@@ -1,6 +1,6 @@
 import {ADD_NEW_TASK, FETCHED_TASKS, DELETE_TASK, UPDATE_TASK} from './actionTypes'
 
-const URL = 'http://localhost:3000'
+const URL = 'https://anns-tasks-backend.herokuapp.com'
 
 const fetchingTasks = () => {
   return (dispatch) => {
